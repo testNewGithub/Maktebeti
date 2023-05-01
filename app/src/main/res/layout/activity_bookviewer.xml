@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:id="@+id/LayoutID">
+
+
+    <Button
+        android:id="@+id/idMarkerButton"
+        android:layout_width="32dp"
+        android:layout_height="85dp"
+        android:background="@drawable/page_marker"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:alpha="0.8"
+        android:onClick="buSavePage"
+        android:layout_marginTop="-7dp" />
+
+    <Button
+        android:id="@+id/idFullScreenButton"
+        android:layout_width="65dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/ic_fullscreen"
+        android:onClick="buFullScreenView"/>
+
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000" />
+
+
+    <com.github.clans.fab.FloatingActionMenu
+        xmlns:fab="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/material_design_android_floating_action_menu_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="5dp"
+
+        fab:menu_animationDelayPerItem="55"
+        fab:menu_backgroundColor="@android:color/transparent"
+        fab:menu_buttonSpacing="0dp"
+        fab:menu_colorNormal="#673AB7"
+        fab:menu_colorPressed="#8566BB"
+        fab:menu_colorRipple="#6D51A0"
+        fab:menu_icon="@drawable/fab_add"
+        fab:menu_labels_colorNormal="#673AB7"
+        fab:menu_labels_colorPressed="#7A53BE"
+        fab:menu_labels_colorRipple="#66efecec"
+        fab:menu_labels_cornerRadius="3dp"
+        fab:menu_labels_ellipsize="none"
+        fab:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+        fab:menu_labels_margin="0dp"
+        fab:menu_labels_maxLines="-1"
+        fab:menu_labels_padding="8dp"
+        fab:menu_labels_position="right"
+        fab:menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+        fab:menu_labels_showShadow="true"
+        fab:menu_labels_singleLine="false"
+        fab:menu_labels_textColor="#f2f1f1"
+        fab:menu_labels_textSize="15sp"
+        fab:menu_fab_size="normal"
+        app:layout_anchor="@+id/fab_share"
+        android:layout_above="@+id/fab_share"
+
+        app:layout_anchorGravity="top">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/material_design_floating_action_menu_item1_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_size="mini"
+            fab:fab_colorNormal="#673AB7"
+            fab:fab_colorPressed="#8566BB"
+            fab:fab_colorRipple="#6D51A0"
+            fab:fab_label="تقييم"
+            android:src="@drawable/ic_rate"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/material_design_floating_action_menu_item2_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_size="mini"
+            fab:fab_colorNormal="#673AB7"
+            fab:fab_colorPressed="#8566BB"
+            fab:fab_colorRipple="#6D51A0"
+            fab:fab_label="خروج"
+            android:src="@drawable/ic_quit_app"/>
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ic_share"
+        android:tint="#ffffff"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        app:fabSize="mini"
+        fab:fab_showShadow="true"
+        tools:ignore="RelativeOverlap" />
+
+
+
+
+</RelativeLayout>

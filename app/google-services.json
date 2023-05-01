@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "560020398884",
+    "firebase_url": "https://maktebeti-89bd3.firebaseio.com",
+    "project_id": "maktebeti-89bd3",
+    "storage_bucket": "maktebeti-89bd3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560020398884:android:92e92fca016f4ce40e89b1",
+        "android_client_info": {
+          "package_name": "com.shadow.dev.maktebeti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "560020398884-cha1bb4stfc1nvm7vjo33gu4ilqra7qc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shadow.dev.maktebeti",
+            "certificate_hash": "250d29731226901cc3db599eefc38e16b860d124"
+          }
+        },
+        {
+          "client_id": "560020398884-htn4jjb5eicbqg3aj2vv8ukhsulq9udj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxFpSFKkdlB9Qa4egDgEOAvMKEMCpHuP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "560020398884-htn4jjb5eicbqg3aj2vv8ukhsulq9udj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4168864559615120~7576453836"
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="end"
+    android:layoutDirection="rtl"
+    android:layout_gravity="right">
+
+    <item android:id="@+id/idPlayStoreApps"
+        android:icon="@drawable/ic_shop"
+        android:title="@string/item1_actinbar"
+        app:showAsAction="ifRoom" />
+
+    <group android:checkableBehavior="single"
+        android:gravity="right"
+        android:layout_gravity="right">
+
+        <item android:id="@+id/share_item"
+            android:title="@string/item1_actinbar"
+            app:showAsAction="never"
+            android:gravity="end"
+            android:layout_gravity="right" />
+
+        <item android:id="@+id/rate_item"
+            android:title="@string/item2_actinbar"
+            app:showAsAction="never"
+            android:gravity="end"
+            android:layout_gravity="right" />
+
+        <item android:id="@+id/privacy_policy_item"
+            android:title="@string/item3_actinbar"
+            app:showAsAction="never"
+            android:gravity="end"
+            android:layout_gravity="right" />
+
+        <item android:id="@+id/exit_item"
+            android:title="@string/item4_actinbar"
+            app:showAsAction="never"
+            android:gravity="end"
+            android:layout_gravity="right" />
+
+    </group>
+</menu>

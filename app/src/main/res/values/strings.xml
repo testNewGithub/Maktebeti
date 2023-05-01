@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">مكتبتي</string>
+
+
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="close">إغلاق</string>
+
+    <string name="share_title">نشرالتطبيق</string>
+    <string name="share_message">هل تريد مشاركة التطبيق مع أصدقائك ؟</string>
+
+    <string name="share_book_title">نشر الكتاب</string>
+    <string name="share_book_message">هل تريد مشاركة الكتاب مع أصدقائك ؟</string>
+
+    <string name="share_with">مشاركة التطبيق مع:</string>
+
+    <string name="rate_title">تقييم التطبيق</string>
+    <string name="rate_message">رأيك يهمنا! من فضلك قم بتقييم التطبيق وأترك تعليقك لتشجيعنا على تحسين العمل في المستقبل.</string>
+
+
+    <string name="internet_state_title">شبكة الانترنت</string>
+    <string name="internet_state_message">هذا الكتاب يتطلب الاتصال بشبكة الانترنت. يرجى التحقق من الشبكة والمحاولة مرة أخرى!</string>
+    <string name="ok">إعادة المحاولة</string>
+
+
+    <string name="cancel_title">خروج من التطبيق</string>
+    <string name="cancel_message">هل تريد الخروج من التطبيق ؟</string>
+    <string name="no">لا</string>
+    <string name="yes">نعم</string>
+
+
+    <string name="bt_back">لاحقا</string>
+    <string name="bt_continue">متابعة</string>
+
+
+    <string name="item1_actinbar">نشر التطبيق</string>
+    <string name="item2_actinbar">تقييم</string>
+    <string name="item3_actinbar">سياسة الخصوصية</string>
+    <string name="item4_actinbar">خروج من التطبيق</string>
+
+
+    <string name="more_book_text">اذا كنت ترغب في ايضافة كتاب الى مجموعتك لا تتردد في طلبه.\nفقط أترك اسم كتابك المفضل أو الكتاب الذي تبحث عنه في تعليق.</string>
+    <string name="more_book_button">طلب كتاب</string>
+
+
+    <string name="withtemim_txt">فكر راق و بعد اخر لسحر الكلمة. قصص وحكايات منها الواقعيّة و منها الخياليّة بلسان تميم البرغوثي, متنبي العصر, لا تتردد في تجربة التطبيق.</string>
+
+    <string name="_share_book_title">مشاركة الكتاب</string>
+    <string name="_share_book_msg">ها قد قاربت على انهاء الكتاب, اذا أعجبك و أستفدت منه يمكنك مشاركته مع أصدقائك.</string>
+
+    <!--
+      <string name="ad_app_id">ca-app-pub-3940256099942544~3347511713</string>
+      <string name="ad_banner_item">ca-app-pub-3940256099942544/6300978111</string>
+      <string name="ad_interstitial_item">ca-app-pub-3940256099942544/1033173712</string>
+      <string name="ad_video_item">ca-app-pub-3940256099942544/5224354917</string>
+    -->
+
+      <string name="ad_app_id">ca-app-pub-4168864559615120~7576453836</string>
+      <string name="ad_banner_item">ca-app-pub-4168864559615120/7193310458</string>
+      <string name="ad_interstitial_item">ca-app-pub-4168864559615120/9548011057</string>
+      <string name="ad_video_item">ca-app-pub-4168864559615120/9951814668</string>
+
+
+</resources>

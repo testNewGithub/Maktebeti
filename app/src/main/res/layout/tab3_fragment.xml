@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:fadeScrollbars="false"
+    android:scrollbarThumbVertical="@color/scroll_bar"
+    android:background="#FFFFFF">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+    <TextView
+
+        android:text="@string/more_book_text"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="30dp"
+        android:textColor="#009688"
+        android:textSize="20sp"
+        android:paddingStart="10dp"
+        android:paddingRight="10dp"
+        android:paddingEnd="10dp"
+        android:paddingLeft="10dp"/>
+
+    <Button
+        android:id="@+id/idMoreBooks"
+        android:text="@string/more_book_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_cancel"
+        android:onClick="elkolfielkolButton"
+        android:textColor="#4CAF50"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
